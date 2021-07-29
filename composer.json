@@ -1,0 +1,26 @@
+{
+  "name": "joem/session",
+  "description": "A helper library to easily manage sessions.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joe Moses",
+      "email": "info@joemoses.co.uk"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Joem\\App\\": "src/",
+      "Joem\\App\\Exception\\": "src/Exception"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  }
+}
